@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+}
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 20px;
+    border-bottom: 1px solid black;
+}
+.header p{
+    font-size: 35px;
+    color: rgb(0, 9, 105);
+
+}
+.logoImg{
+    width: 40px;
+    height: 40px;
+}
+/* nav */
+.nav{
+    border-bottom: 1px solid black;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.nav ul li{
+    padding: 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 98);
+    padding: 5px;
+}
+.nav ul li:hover a{
+    background-color: transparent;
+    border: 1px solid rgba(35, 35, 138, 0.305);
+    
+}
+/* content */
+.content {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.content .personalLogin{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+.content .personalLogin input{
+    padding: 5px;
+}
+.content .login img{
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+}
+.onlinePages{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    padding: 20px;
+    max-width: 50%;
+    color: rgb(0, 0, 98);
+}
+.profile h3{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 100px;
+}
+.profile ul {
+    padding: 30px;
+}
+.photo img{
+    max-width: 70%;
+    padding: 20px;
+}
+.photo p{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.footer{
+    padding: 30px;
+    text-align: center;
+}
+.footer p{
+font-size:25px;
+font-weight: bold;
+color:rgb(72, 98, 177);
+}
+
+.back-to-top {
+    bottom:10% ;
+    right: 50%;
+}
+
+.back-to-top img {
+    width:40px;
+    cursor: pointer;
+}

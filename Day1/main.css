@@ -1,0 +1,57 @@
+/* 1. Select all <p> elements and make them red  
+p{
+    color: red;
+    font-size: 16px;
+}
+*/
+
+/* 2. Select all <p> and <div> elements   
+p, div {
+    border: 1px solid #007BFF;  
+    padding: 5px;
+    margin: 5px 0;
+}
+*/
+
+/* 3. Select <p> with class 'mainClass' that is a direct child of <div> with id 'myDiv' 
+#mydiv > p.mainClass {
+    background-color: #007BFF;  
+    color: #7bdffd; 
+    font-weight: bold;
+    padding: 8px;
+}
+*/
+/* 4. Select all <p> elements inside a <div>
+div p {
+    font-style: italic;
+    margin-left: 10px;
+}
+ */
+/* 5. Select <input> with type="text" and class 'myClass' 
+input[type="text"].myClass {
+    border: 1px solid #28A745;  
+    padding: 5px;
+    font-size: 14px;
+}
+*/
+
+ /*select span elements after div
+#container ~ span {
+    color: orange;
+    font-size: 14px;
+    font-weight: bold;
+}
+*/
+
+/* 7. Select <p> elements with class 'myClass' 
+p.myClass {
+    text-decoration: underline;
+    color: gray;
+}
+
+/* 8. Select the <div> with id 'myDiv'  */
+#mydiv {
+    background-color: #99c2cd;  
+    padding: 10px;
+    border: 1px solid #0e2338;  
+}
